@@ -6,7 +6,7 @@ function getUserInfo() {
         //     Authorization: localStorage.getItem('token')
         // },
         success: (res) => {
-            console.log(res);
+            // console.log(res);
             if (res.status!==0) {
                 return layer.msg(res.message);
             }
@@ -51,3 +51,7 @@ $('#btnLogout').click(()=>{
 
 
 getUserInfo()
+
+function change (){
+    $('#change').addClass('layui-this').next().removeClass('layui-this')
+}

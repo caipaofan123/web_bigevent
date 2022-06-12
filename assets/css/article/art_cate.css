@@ -15,7 +15,7 @@ body {
     align-items: center;
 }
 
-#form-add {
+#form-add,#form-edit {
     padding-top: 20px;
     padding-right: 30px;
   }
